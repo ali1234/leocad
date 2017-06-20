@@ -3235,13 +3235,13 @@ GL_EXT_texture_filter_anisotropic extension: %4
     </message>
     <message>
         <location filename="../qt/lc_qimagedialog.cpp" line="48"/>
-        <source>Please enter a width between 1 and 2048.</source>
-        <translation>SVP entrez une largeur entre 1 et 2048.</translation>
+        <source>Please enter a width between 1 and 8192.</source>
+        <translation>SVP entrez une largeur entre 1 et 8192.</translation>
     </message>
     <message>
         <location filename="../qt/lc_qimagedialog.cpp" line="56"/>
-        <source>Please enter a height between 1 and 2048.</source>
-        <translation>SVP entrez une hauteur entre 1 et 2048.</translation>
+        <source>Please enter a height between 1 and 8192.</source>
+        <translation>SVP entrez une hauteur entre 1 et 8192.</translation>
     </message>
     <message>
         <location filename="../qt/lc_qimagedialog.cpp" line="78"/>

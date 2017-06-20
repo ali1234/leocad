@@ -9,10 +9,10 @@ lcQHTMLDialog::lcQHTMLDialog(QWidget *parent, void *data) :
 {
     ui->setupUi(this);
 
-	ui->stepWidth->setValidator(new QIntValidator(0, 2048, ui->stepWidth));
-	ui->stepHeight->setValidator(new QIntValidator(0, 2048, ui->stepHeight));
-	ui->partImagesWidth->setValidator(new QIntValidator(0, 2048, ui->partImagesWidth));
-	ui->partImagesHeight->setValidator(new QIntValidator(0, 2048, ui->partImagesHeight));
+	ui->stepWidth->setValidator(new QIntValidator(0, 8192, ui->stepWidth));
+	ui->stepHeight->setValidator(new QIntValidator(0, 8192, ui->stepHeight));
+	ui->partImagesWidth->setValidator(new QIntValidator(0, 8192, ui->partImagesWidth));
+	ui->partImagesHeight->setValidator(new QIntValidator(0, 8192, ui->partImagesHeight));
 
 	options = (lcHTMLDialogOptions*)data;
 
